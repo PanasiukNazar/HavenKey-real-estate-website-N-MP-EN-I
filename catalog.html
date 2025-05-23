@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HavenKey</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="real estate, property listings, buy home, sell property, real estate agency, houses for sale, commercial properties, rent apartments, property agents"
+            name="keywords"
+        />
+        <meta
+            content="Discover your next home or investment with our trusted real estate agency. Explore top property listings, professional guidance, and expert support in buying, selling, or renting real estate."
+            name="description"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">HavenKey</h1>
+                    </a>
+                    <button
+                        type="button"
+                        class="navbar-toggler me-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-transparent"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Home</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >About Us</a
+                            >
+                            <a
+                                href="catalog.html"
+                                class="nav-item nav-link active"
+                                >Properties</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">
+                    Property Catalog
+                </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">
+                            Property Catalog
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5 mb-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeIn"
+                    data-wow-delay=".3s"
+                    style="max-width: 600px"
+                >
+                    <h5 class="text-primary">
+                        Discover the Future of Real Estate
+                    </h5>
+                    <h1>
+                        News and Insights for Property Investors and Home Buyers
+                    </h1>
+                    <p>
+                        Welcome to our latest blog where we share exclusive
+                        insights, expert tips, and emerging trends shaping the
+                        real estate market. From modern housing developments to
+                        expert investment strategies, our articles provide the
+                        tools and knowledge you need to navigate the dynamic
+                        world of real estate. Stay informed and inspired with
+                        our curated content tailored for buyers, sellers, and
+                        property investors.
+                    </p>
+                </div>
+
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-1.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Market Trends
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary"
+                                    >March 24, 2024</span
+                                >
+                                <h5 class="mt-4">
+                                    The Rise of Suburban Living: What Buyers
+                                    Need to Know
+                                </h5>
+                                <p class="py-2">
+                                    Discover why more homebuyers are moving to
+                                    the suburbs and how real estate developers
+                                    are responding to this growing demand with
+                                    innovative housing projects.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-2.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Investment
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary">May 4, 2024</span>
+                                <h5 class="mt-4">
+                                    Emerging Property Hotspots: Where to Invest
+                                    Next
+                                </h5>
+                                <p class="py-2">
+                                    Explore the most promising neighborhoods for
+                                    property investment and how investors are
+                                    securing high returns through early
+                                    acquisitions.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-3.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Property Tips
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary">July 1, 2024</span>
+                                <h5 class="mt-4">
+                                    Top 5 Mistakes First-Time Homebuyers Should
+                                    Avoid
+                                </h5>
+                                <p class="py-2">
+                                    Learn the common pitfalls that new buyers
+                                    face and how you can make smarter decisions
+                                    when purchasing your first home or
+                                    investment property.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-4.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Technology
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary"
+                                    >April 12, 2024</span
+                                >
+                                <h5 class="mt-4">
+                                    How Smart Homes Are Transforming Real Estate
+                                </h5>
+                                <p class="py-2">
+                                    From energy efficiency to remote security
+                                    systems, discover how smart technologies are
+                                    increasing property values and reshaping
+                                    modern living.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-5.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Residential
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary"
+                                    >December 1, 2024</span
+                                >
+                                <h5 class="mt-4">
+                                    Urban vs. Suburban Living: Pros and Cons
+                                </h5>
+                                <p class="py-2">
+                                    Compare the benefits of city life versus
+                                    suburban comfort and understand how to
+                                    choose the best location for your next
+                                    property purchase.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-6.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                            >
+                                Commercial
+                            </span>
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary">June 2, 2024</span>
+                                <h5 class="mt-4">
+                                    The Future of Commercial Real Estate
+                                    Post-Digital Era
+                                </h5>
+                                <p class="py-2">
+                                    Find out how digital transformation is
+                                    redefining office spaces and commercial
+                                    leasing, and what this means for investors
+                                    and tenants.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Learn More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-5 justify-content-center mt-3">
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-7.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                                >Market Trends</span
+                            >
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary"
+                                    >March 24, 2024</span
+                                >
+                                <h5 class="mt-4">
+                                    Emerging Real Estate Market Trends to Watch
+                                </h5>
+                                <p class="py-2">
+                                    Explore the latest trends shaping the real
+                                    estate market, including new buyer
+                                    behaviors, technology impact, and
+                                    opportunities for investors to maximize
+                                    returns.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Read More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-8.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                                >Investment</span
+                            >
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary">May 4, 2024</span>
+                                <h5 class="mt-4">
+                                    Smart Real Estate Investment Strategies for
+                                    2024
+                                </h5>
+                                <p class="py-2">
+                                    Learn how to identify lucrative investment
+                                    properties and apply smart strategies to
+                                    secure high returns while minimizing risks
+                                    in today's market.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Read More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-9.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                                >Architecture</span
+                            >
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary">July 1, 2024</span>
+                                <h5 class="mt-4">
+                                    Innovative Architecture Trends in Modern
+                                    Housing
+                                </h5>
+                                <p class="py-2">
+                                    Discover how contemporary architecture is
+                                    redefining residential spaces with
+                                    sustainable designs and smart home
+                                    technologies.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Read More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay=".3s"
+                    >
+                        <div
+                            class="blog-item position-relative bg-light rounded"
+                        >
+                            <img
+                                src="img/news-10.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt=""
+                            />
+                            <span
+                                class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px"
+                                >Legal Advice</span
+                            >
+                            <div
+                                class="blog-content text-center position-relative px-3"
+                                style="margin-top: 20px"
+                            >
+                                <span class="text-secondary"
+                                    >April 12, 2024</span
+                                >
+                                <h5 class="mt-4">
+                                    Key Legal Considerations for Property Buyers
+                                </h5>
+                                <p class="py-2">
+                                    Understand the crucial legal aspects of
+                                    purchasing real estate to avoid common
+                                    pitfalls and ensure a smooth transaction.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn bg-primary text-white py-3 px-5"
+                                        style="
+                                            background-color: #990011ff !important;
+                                        "
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Read More
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer bg-dark wow fadeIn"
+            data-wow-delay=".3s"
+        >
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">HavenKey</h1>
+                        </a>
+                        <p class="mt-4 text-light">
+                            We are committed to providing high-quality real
+                            estate services, offering insights and solutions
+                            tailored to your property needs. Explore our
+                            listings, market analysis, and expert advice all
+                            designed to help you find your ideal home or
+                            investment property.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#" class="h3 text-white">Help Links</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="index.html" class="mb-2 text-white">
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Homepage
+                            </a>
+                            <a
+                                href="privacy-policy.html"
+                                class="mb-2 text-white"
+                            >
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Privacy Policy
+                            </a>
+                            <a
+                                href="cookie-policy.html"
+                                class="mb-2 text-white"
+                            >
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Cookie Policy
+                            </a>
+                            <a href="disclaimer.html" class="mb-2 text-white">
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Disclaimer
+                            </a>
+                            <a
+                                href="business-model.html"
+                                class="mb-2 text-white"
+                            >
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Business Model
+                            </a>
+                            <a href="terms-of-use.html" class="mb-2 text-white">
+                                <i
+                                    class="fas fa-angle-right text-secondary me-2"
+                                ></i
+                                >Terms of Use
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#" class="h3 text-white">Contact Us</a>
+                        <div
+                            class="text-white mt-4 d-flex flex-column contact-link"
+                        >
+                            <a
+                                href="#"
+                                class="pb-3 text-light border-bottom border-primary"
+                            >
+                                <i
+                                    class="fas fa-map-marker-alt text-secondary me-2"
+                                ></i
+                                >Corner House, 42 Father Griffin Ave, Galway,
+                                H91 9R20, Ireland
+                            </a>
+                            <a
+                                href="#"
+                                class="py-3 text-light border-bottom border-primary"
+                            >
+                                <i
+                                    class="fas fa-phone-alt text-secondary me-2"
+                                ></i
+                                >+35391396355
+                            </a>
+                            <a
+                                href="#"
+                                class="py-3 text-light border-bottom border-primary"
+                            >
+                                <i
+                                    class="fas fa-envelope text-secondary me-2"
+                                ></i
+                                >haven_key@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses
+                    <a href="privacy-policy.html">privacy policies</a>
+                    to provide you with a better browsing experience focused on
+                    real estate services. See more details in our
+                    <a href="cookie-policy.html">cookie policy</a>.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-secondary btn-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up text-white"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
