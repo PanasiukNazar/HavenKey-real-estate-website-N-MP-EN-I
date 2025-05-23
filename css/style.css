@@ -121,8 +121,8 @@
 
 .navbar .dropdown-toggle::after {
     border: none;
-    content: '\f107';
-    font-family: 'font awesome 5 free';
+    content: "\f107";
+    font-family: "font awesome 5 free";
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -156,7 +156,7 @@
 }
 
 .carousel-item::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     position: absolute;
@@ -213,7 +213,7 @@
 .carousel-caption .carousel-content {
     text-align: left;
     max-width: 700px;
-    background: #10182099 !important;
+    background: #00a4cc42 !important;
     padding: 40px;
 }
 
@@ -338,7 +338,7 @@
 
 .services-content::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 0;
     top: 0;
@@ -388,7 +388,7 @@
 }
 
 .project-img::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 150px;
     height: 150px;
@@ -402,7 +402,7 @@
 }
 
 .project-img::after {
-    content: '';
+    content: "";
     width: 150px;
     height: 150px;
     position: absolute;
@@ -493,7 +493,7 @@
 .team-content::before {
     height: 200px;
     display: block;
-    content: '';
+    content: "";
     position: relative;
     top: -101px;
     background: var(--bs-secondary);
@@ -625,7 +625,7 @@
 /*** Contact Start ***/
 .contact-detail::before {
     position: absolute;
-    content: '';
+    content: "";
     height: 50%;
     width: 100%;
     top: 0;
@@ -636,11 +636,11 @@
 }
 
 .contact-map {
-    background: #990011ff;
+    background: #f95700ff;
 }
 
 .contact-form {
-    background: #990011ff;
+    background: #f95700ff;
 }
 
 /*** Contact End ***/
@@ -665,7 +665,7 @@
 }
 
 /*** Footer End ***/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
     position: fixed;
@@ -689,12 +689,12 @@
     display: none;
 }
 header i {
-    color: #990011ff;
+    color: #f95700ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #990011ff;
+    color: #f95700ff;
     font-weight: 500;
     text-align: center;
 }
@@ -702,7 +702,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #990011ff;
+    color: #f95700ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -714,10 +714,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #990011ff;
+    border: 2px solid #f95700ff;
     color: #fff;
     padding: 8px 0;
-    background: #990011ff;
+    background: #f95700ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -726,16 +726,16 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #990011ff;
+    color: #f95700ff;
     border-radius: 30px;
 }
 #declineBtn {
     background-color: #fff;
-    color: #990011ff;
+    color: #f95700ff;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #990011ff;
+    background-color: #f95700ff;
     color: #fff;
 }
 select {
